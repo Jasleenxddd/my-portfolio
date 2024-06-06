@@ -115,7 +115,7 @@ const Home = () => (
           Art, Music,{' '}
           
            Playing Drums,{' '}
-          , UI/UX Designing, Reading Books
+           UI/UX Designing, Reading Books
         </Paragraph>
       </Section>
 
