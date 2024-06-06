@@ -4,7 +4,6 @@ import {
   Link,
   List,
   ListItem,
-  SimpleGrid,
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -21,7 +20,7 @@ const Work = () => (
      NovaFood is a food ordering webapp. 
       </P>
       <P>
-     Novafood is a full-stack food ordering web application with a beautiful and amazing user interface which grabs user's attention.
+     Novafood is a full-stack food ordering web application with a beautiful and amazing user interface which grabs user&apos;s attention.
       </P>
       <List ml={4} my={4}>
         <ListItem>
