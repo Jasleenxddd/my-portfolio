@@ -71,7 +71,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Hello! I'm Jasleen Kaur, a versatile and passionate full-stack developer based in Harayana. As a freelancer, I specialize in creating innovative digital solutions that bring ideas to life. My journey in tech has been fueled by a deep-seated passion for building digital services and products that matter. When I'm not immersed in the digital world, you will often find me exploring the nature's aesthetics through my camera lens. Thank you for visiting my portfolio, and I look forward to working with you!
+        Hello! I'&apos;'m Jasleen Kaur, a versatile and passionate full-stack developer based in Harayana. As a freelancer, I specialize in creating innovative digital solutions that bring ideas to life. My journey in tech has been fueled by a deep-seated passion for building digital services and products that matter. When I'&apos;'m not immersed in the digital world, you will often find me exploring the nature'&apos;' aesthetics through my camera lens. Thank you for visiting my portfolio, and I look forward to working with you!
 
 
         </Paragraph>
@@ -94,7 +94,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022-Now</BioYear>
-          Studying Bachelor's Program in the Graduate School of
+          Studying Bachelor'&apos;'s Program in the Graduate School of
           Information Technology at Indian Institute of Information Technology Gwalior.
         </BioSection>
      
