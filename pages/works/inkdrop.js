@@ -14,16 +14,15 @@ const Work = () => (
   <Layout title="Webgl-Simulation">
     <Container>
       <Title>
-      Webgl-Simulation <Badge>2024-</Badge>
+      EVOGYM-Fitnesss App <Badge>2024-</Badge>
       </Title>
       <P>
-      The WebGL Fluid Simulation project creates a visually stunning and interactive fluid dynamics experience using advanced WebGL rendering techniques. It leverages libraries like `react-three-fiber` and `fluid-simulation-react` to achieve realistic fluid behavior and smooth animations.
-      </P>
+      EvoGym is fitness application designed to help users achieve their health and wellness goals. Combining personalized workout plans, nutrition tracking, and progress monitoring, EvoGym provides a holistic approach to fitness. The app leverages modern technology to create an engaging and user-friendly experience, making it easier for users to stay motivated and committed to their fitness journey.      </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://webgl-fluid-implementation.vercel.app/">
-          https://webgl-fluid-implementation.vercel.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://evo-gym-fitness-app.vercel.app/">
+          https://evo-gym-fitness-app.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -32,7 +31,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>WebGL ,React ,Three.js ,React-Three-Fiber ,TypeScript</span>
+          <span>React ,TypeScript, TailwindCSS, Vite, JavaScript</span>
         </ListItem>
         {/* <ListItem>
           <Meta>Blogpost</Meta>
@@ -43,8 +42,11 @@ const Work = () => (
         </ListItem> */}
       </List>
 
-      <WorkImage src="/images/works/webgl1.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/webgl2.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/gym1.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/gym2.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/gym3.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/gym4.png" alt="Inkdrop" />
+
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
           src="https://www.youtube.com/embed/-qBavwqc_mY"

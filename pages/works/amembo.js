@@ -1,59 +1,41 @@
 import {
   Container,
   Badge,
-  Link,
   List,
   ListItem,
 
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
+import Link from 'next/link'
 
 const Work = () => (
-  <Layout title="React-workflow">
+  <Layout title="File-share">
     <Container>
       <Title>
-        Text-Utils <Badge></Badge>
+        Pokemon Cars <Badge>2023</Badge>
       </Title>
-
       <P>
-           A react based text transformation web application.
+      Pokemon is a frontend UI which displays various pokemon cards and a search functionality to search them.
       </P>
 
 
       <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>Web</span>
-        </ListItem>
-        <ListItem>
-          <Meta>Stack</Meta>
-          <span>React, CSS, JavaScript </span>
-        </ListItem>
 
         <ListItem>
-          <Meta>Last update</Meta>
-          <span>2023</span>
+          <Meta>Stack </Meta>
+          <span>React, CSS, JavaScript</span>
         </ListItem>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://text-utils-aradhu74.vercel.app/">
-            Text-Utils <ExternalLinkIcon mx="2px" />
-          </Link>
+          <Meta>Website </Meta>
+          <span> <Link href="https://pokemon-ass.vercel.app/">https://pokemon-ass.vercel.app/</Link></span>
         </ListItem>
 
       </List>
 
-
-
-
-
-
-      <WorkImage src="/images/works/text-utils1.png" alt="Text-Utils" />
-      <WorkImage src="/images/works/text-utils2.png" alt="Text-Utils" />
-    </Container>
+      <WorkImage src="/images/works/poke1.png" alt="to-do list" />
+         </Container>
   </Layout>
 )
 

@@ -35,9 +35,9 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Aradhya Dixit
+            Jasleen Kaur
           </Heading>
-          <p>Digital Craftsman (Developer / Designer )</p>
+          <p>Tech Artisan (Developer / Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -56,10 +56,10 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/qwerty.png"
+              src="/images/jas2.jpg"
               alt="Profile image"
               borderRadius="full"
-              width="95%"
+              width="100%"
               height="100%"
             />
           </Box>
@@ -71,11 +71,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Aradhya is a freelance and a full-stack developer based in Kanpur with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera.
+        Hello! I'm Jasleen Kaur, a versatile and passionate full-stack developer based in Harayana. As a freelancer, I specialize in creating innovative digital solutions that bring ideas to life. My journey in tech has been fueled by a deep-seated passion for building digital services and products that matter. When I'm not immersed in the digital world, you'll often find me exploring the nature's aesthetics through my camera lens. Thank you for visiting my portfolio, and I look forward to working with you!
+
+
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -91,8 +89,8 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2005</BioYear>
-          Born in Kanpur,India.
+          <BioYear>2004</BioYear>
+          Born in Panipat,India.
         </BioSection>
         <BioSection>
           <BioYear>2022-Now</BioYear>
@@ -114,8 +112,8 @@ const Home = () => (
         <Paragraph>
           Art, Music,{' '}
           
-           Playing Drums,{' '}
-           UI/UX Designing, Reading Books
+            Photography,{' '}
+            Designing, Reading Journals
         </Paragraph>
       </Section>
 

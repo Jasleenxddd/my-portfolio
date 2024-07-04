@@ -1,51 +1,41 @@
 import {
-
   Container,
   Badge,
-  
   List,
   ListItem,
-  Heading,
-  Center
+
 } from '@chakra-ui/react'
+import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
-import Layout from '../../components/layouts/article'
+import Link from 'next/link'
 
 const Work = () => (
-  <Layout title="PaperLink">
+  <Layout title="File-share">
     <Container>
       <Title>
-        IntelliBot <Badge>2023</Badge>
+        NewsApp <Badge>2023</Badge>
       </Title>
       <P>
-      A react based fully responsive frontend design.</P>
+      This app provides recent news designed using React.
+      </P>
+
+
       <List ml={4} my={4}>
+
         <ListItem>
-          <Meta>Stack</Meta>
-          <span> TailwindCSS, Node.js, Reactjs, vite</span>
+          <Meta>Stack </Meta>
+          <span>React, CSS, JavaScript</span>
         </ListItem>
         <ListItem>
-         
+          <Meta>Git link </Meta>
+          <span> <Link href="https://github.com/Jasleenxddd/news-app">https://github.com/Jasleenxddd/news-app</Link></span>
         </ListItem>
 
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
-        <Center>Media coverage</Center>
-      </Heading>
-
-
-
-      <WorkImage
-        src="/images/works/intellibot1.png"
-        alt="walknote"
-      />
-      <WorkImage src="/images/works/intellibot2.png" alt="intellibot" />
-      <WorkImage src="/images/works/intellibot3.png" alt="intellibot" />
-      <WorkImage src="/images/works/intellibot4.png" alt="intellibot" />
-
-    </Container>
+      <WorkImage src="/images/works/poke1.png" alt="to-do list" />
+         </Container>
   </Layout>
 )
 

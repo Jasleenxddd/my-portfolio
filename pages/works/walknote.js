@@ -14,13 +14,10 @@ const Work = () => (
   <Layout title="Novafood">
     <Container>
       <Title>
-        Novafood <Badge>2024-</Badge>
+        Talk-A-tive <Badge>2024-</Badge>
       </Title>
       <P>
-     NovaFood is a food ordering webapp. 
-      </P>
-      <P>
-     Novafood is a full-stack food ordering web application with a beautiful and amazing user interface which grabs user&apos;s attention.
+      Talkative is an advanced real-time messaging application built using the MERN (MongoDB, Express, React, Node.js) stack. Designed for seamless communication, Talkative offers a rich set of features that ensure users stay connected with friends, family, and colleagues. It also allows one to create and manage group chats with multiple participants.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -28,14 +25,23 @@ const Work = () => (
           <span>Web</span>
         </ListItem>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="https://github.com/AradhyaDixit18/NovaFood">
+          <Meta>Git link</Meta>
+          <Link href="https://github.com/Jasleenxddd/talkative-frontend">
+          Frontend
             <ExternalLinkIcon mx="2px" />
           </Link>
+          <p>
+          <Link  ml={16} href="https://github.com/Jasleenxddd/talkative-backend">
+          Backend
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+          </p>
+          
+          
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Reactjs, TailwindCSS, Expressjs, Nodejs, JavaScript, MongoDB</span>
+          <span>Reactjs, ChakraUI, Expressjs, Nodejs, JavaScript, MongoDB, Postman</span>
         </ListItem>
       </List>
 
@@ -79,9 +85,12 @@ const Work = () => (
       </UnorderedList> */}
 
     
-      <WorkImage src="/images/works/novafood1.png" alt="Yaabin" />
-      <WorkImage src="/images/works/novafood2.png" alt="Yaabin" />
-      <WorkImage src="/images/works/novafood3.png" alt="Yaabin" />
+      <WorkImage src="/images/works/talk1.png" alt="Yaabin" />
+      <WorkImage src="/images/works/talk2.png" alt="Yaabin" />
+      <WorkImage src="/images/works/talk3.png" alt="Yaabin" />
+      <WorkImage src="/images/works/talk4.png" alt="Yaabin" />
+      <WorkImage src="/images/works/talk5.png" alt="Yaabin" />
+
     </Container>
   </Layout>
 )

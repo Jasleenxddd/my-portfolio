@@ -14,31 +14,29 @@ const Work = () => (
   <Layout title="File-share">
     <Container>
       <Title>
-        To-Do list <Badge>2023</Badge>
+        Ron-Quotes <Badge>2023</Badge>
       </Title>
-      <P>It is a to-do list web app which lists your daily tasks.It is based on react and used to list user&apos;s daily basis tasks.</P>
+      <P>
+      Ron-Quotes is a beautifully designed frontend UI for a quotes application, aimed at delivering handpicked quote by Ron on the homepage which includes save quotes too.
+      </P>
 
 
       <List ml={4} my={4}>
 
         <ListItem>
           <Meta>Stack </Meta>
-          <span>React / CSS / JavaScript</span>
+          <span>React, CSS, JavaScript</span>
         </ListItem>
         <ListItem>
           <Meta>Website </Meta>
-          <span> <Link href="https://things-lister.netlify.app/">Click here</Link></span>
-        </ListItem>
-        <ListItem>
-          <Meta>Repository </Meta>
-          <span> <Link href="https://github.com/AradhyaDixit18/to-do-list">Click here</Link></span>
+          <span> <Link href="https://ron-quotes-iota.vercel.app/">https://ron-quotes-iota.vercel.app/</Link></span>
         </ListItem>
 
       </List>
 
-      <WorkImage src="/images/works/to-do1.png" alt="to-do list" />
+      <WorkImage src="/images/works/rone1.png" alt="to-do list" />
      
-      <WorkImage src="/images/works/to-do2.png" alt="to-do list" />
+      <WorkImage src="/images/works/rone2.png" alt="to-do list" />
     </Container>
   </Layout>
 )

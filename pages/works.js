@@ -2,14 +2,16 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import ebike1 from '../public/images/works/Ebike1.png'
-import thumbVcRooom from '../public/images/works/file-share1.png'
-import thumbModeTokyo from '../public/images/works/to-do1.png'
-import textutils from '../public/images/works/text-utils1.png'
-import intellibot1 from '../public/images/works/intellibot1.png'
-import novafood1 from '../public/images/works/novafood1.png'
-import webgl1 from '../public/images/works/webgl1.png'
-import VR1 from '../public/images/works/VR1.png'
+import tube1 from '../public/images/works/tube1.png'
+import poke1 from '../public/images/works/poke1.png'
+import news1 from '../public/images/works/news1.png'
+import talk4 from '../public/images/works/talk4.png'
+import gym1 from '../public/images/works/gym1.png'
+import myn1 from '../public/images/works/myn1.png'
+import page1 from '../public/images/works/page1.png'
+import not1 from '../public/images/works/not1.png'
+import tex1 from '../public/images/works/tex1.png'
+import rone2 from '../public/images/works/rone2.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -18,51 +20,59 @@ const Works = () => (
         
 
         <Heading as="h3" fontSize={20} mb={4}>
-          New Projects
+          Projects
         </Heading>
       </Section>
 
     <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Webgl-Simulation" thumbnail={webgl1}>
-          This project implements a WebGL fluid simulation using a variety of modern web technologies, including React, Three.js, and various supporting libraries. 
+          <WorkGridItem id="inkdrop" title="EVOGYM-Fitness" thumbnail={gym1}>
+          This project implements a comprehensive application designed to help users achieve their fitness goals. 
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
             id="walknote"
-            title="NovaFood"
-            thumbnail={novafood1}
+            title="Talkative-chat-app"
+            thumbnail={talk4}
           >
-            NovaFood is a full-stack food ordering web application with a perfect and smooth user interface.     
+            Talkative is a full-stack chatting web application with a perfect and smooth user interface.     
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Figma Projects
-        </Heading>
-      </Section>
-
-    <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="pichu2" title="Ebike Design" thumbnail={ebike1}>
-          This project highlights the EV-B ebike website design. 
+          <WorkGridItem id="pichu2" title="MyTube" thumbnail={tube1}>
+          This project is an online video player application. 
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
             id="styly"
-            title="VR Web Design"
-            thumbnail={VR1}
+            title="MyMyntra"
+            thumbnail={myn1}
           >
-          This is a VR Website design in Figma.
+          This is a Myntra clone application with all the functionalities.
           </WorkGridItem>
         </Section>
-      </SimpleGrid>
+        <Section>
+          <WorkGridItem
+            id="clvrBook"
+            title="CleverBooks"
+            thumbnail={page1}
+          >
+            A react based fully responsive frontend UI.
+            </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="ntbk"
+            title="NoteBook"
+            thumbnail={not1}
+          >
+          This app is a Notes making app for taking notes.
+          </WorkGridItem>
+        </Section>
+        </SimpleGrid>
+
 
       <Section delay={0.2}>
         <Heading as="h3" fontSize={20} mb={4}>
@@ -72,35 +82,35 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="margelo" thumbnail={thumbVcRooom} title="file-share">
-          A MERN-stack based online file sharing web application.
+          <WorkGridItem id="margelo" thumbnail={tex1} title="Text-Utils">
+          A web application designed to provide users with a variety of text manipulation utilities.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="modetokyo"
-            thumbnail={thumbModeTokyo}
-            title="To-Do List"
+            thumbnail={rone2}
+            title="Ron-Quotes"
           >
-           A react based to-do list/ task managing web application.
+           A react based Quote generating web application.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="amembo"
-            thumbnail={textutils}
-            title="Text-Utils"
+            thumbnail={poke1}
+            title="Pokemon"
           >
-           A react based text transformation web application.
+           A react based Pokemon Cards web application.
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
             id="fourpainters"
-            thumbnail={intellibot1}
-            title="IntelliBot"
+            thumbnail={news1}
+            title="NewsApp"
           >
-           A react based fully responsive frontend design.
+           This app provides recent news designed using React.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
