@@ -71,7 +71,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Hello! I'm Jasleen Kaur, a versatile and passionate full-stack developer based in Harayana. As a freelancer, I specialize in creating innovative digital solutions that bring ideas to life. My journey in tech has been fueled by a deep-seated passion for building digital services and products that matter. When I'm not immersed in the digital world, you'll often find me exploring the nature's aesthetics through my camera lens. Thank you for visiting my portfolio, and I look forward to working with you!
+        Hello! I'm Jasleen Kaur, a versatile and passionate full-stack developer based in Harayana. As a freelancer, I specialize in creating innovative digital solutions that bring ideas to life. My journey in tech has been fueled by a deep-seated passion for building digital services and products that matter. When I'm not immersed in the digital world, you will often find me exploring the nature's aesthetics through my camera lens. Thank you for visiting my portfolio, and I look forward to working with you!
 
 
         </Paragraph>
@@ -94,7 +94,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022-Now</BioYear>
-          Studying Bachelor&apos;s Program in the Graduate School of
+          Studying Bachelor's Program in the Graduate School of
           Information Technology at Indian Institute of Information Technology Gwalior.
         </BioSection>
      
@@ -117,82 +117,7 @@ const Home = () => (
         </Paragraph>
       </Section>
 
-      {/* <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          On the web
-        </Heading>
-        <List>
-          <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoGithub />}
-              >
-                @craftzdog
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @inkdrop_app (English)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
-              >
-                @craftzdog
-              </Button>
-            </Link>
-          </ListItem>
-        </List> */}
-
-        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
-
-        <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
-      </Section> */}
+     
     </Container>
   </Layout>
 )
